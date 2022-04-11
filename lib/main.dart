@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_semantics_examples/custom_button_group_with_semantics.dart';
-import 'package:flutter_semantics_examples/custom_radio_group_with_semantics.dart';
+import 'package:flutter_semantics_examples/display_new_input.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,10 +39,18 @@ class MainScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const <Widget>[
+              //DropdownFormFieldBasic(),
+
               //CheckboxWithSemantics(),
               //RadioButtonGroupWithSemantics(),
-              CustomButtonGroupWithSemanticsWrapper(),
-              CustomRadioGroupWithSemanticsWrapper(),
+              //CustomButtonGroupWithSemanticsWrapper(),
+              //CustomRadioGroupWithSemanticsWrapper(),
+              //AutoCompleteBasic(), // missing semantics noted
+              //AutoCompleteWithAnnouncedOptions(), // not finished, may not be possible
+              //DropdownFormFieldBasic(), // not finished
+              //ButtonsWithSemantics(),
+              DisplayNewInput()
+              //LiveRegion()
             ]));
   }
 }
