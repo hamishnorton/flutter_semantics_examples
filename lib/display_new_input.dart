@@ -16,7 +16,7 @@ class _DisplayNewInputState extends State<DisplayNewInput> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text('Display New Input (live region announcement'),
+        const Text('Display New Input (live region announcement)'),
         ElevatedButton(
             onPressed: () {
               setState(() {

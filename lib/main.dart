@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_semantics_examples/display_new_input.dart';
+import 'package:flutter_semantics_examples/display_new_input_error_on_hide.dart';
+import 'package:flutter_semantics_examples/live_region.dart';
 
 void main() {
   runApp(const MyApp());
@@ -49,8 +51,9 @@ class MainScreen extends StatelessWidget {
               //AutoCompleteWithAnnouncedOptions(), // not finished, may not be possible
               //DropdownFormFieldBasic(), // not finished
               //ButtonsWithSemantics(),
-              DisplayNewInput()
-              //LiveRegion()
+              LiveRegion(),
+              DisplayNewInput(),
+              DisplayNewInputErrorOnHide(),
             ]));
   }
 }
