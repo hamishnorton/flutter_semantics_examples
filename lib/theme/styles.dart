@@ -21,4 +21,11 @@ class Styles {
           : null,
     );
   }
+
+  static Widget sectionPadding({required Widget child}) {
+    return Padding(
+      padding: const EdgeInsets.all(12.0),
+      child: child,
+    );
+  }
 }
